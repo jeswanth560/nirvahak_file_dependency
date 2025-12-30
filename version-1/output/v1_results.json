@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "group_id": 1,
+      "description": "files with no dependencies",
+      "text_files": [
+        {
+          "id": 1,
+          "name": "file1.txt"
+        },
+        {
+          "id": 2,
+          "name": "file4.txt"
+        },
+        {
+          "id": 3,
+          "name": "file6.txt"
+        },
+        {
+          "id": 4,
+          "name": "file9.txt"
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "description": "files with exactly 1 dependency",
+      "text_files": [
+        {
+          "id": 1,
+          "name": "file2.txt"
+        },
+        {
+          "id": 2,
+          "name": "file3.txt"
+        },
+        {
+          "id": 3,
+          "name": "file7.txt"
+        },
+        {
+          "id": 4,
+          "name": "file8.txt"
+        },
+        {
+          "id": 5,
+          "name": "file10.txt"
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "description": "files with more than 1 dependency",
+      "text_files": [
+        {
+          "id": 1,
+          "name": "file5.txt"
+        }
+      ]
+    }
+  ]
+}
