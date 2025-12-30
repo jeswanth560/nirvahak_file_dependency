@@ -1,0 +1,47 @@
+{
+    "version": 2,
+    "all_files_source": {
+        "type": "directory",
+        "path": "../../scripts",
+        "pattern": "*.txt"
+    },
+    "dependent_files": [
+        {
+            "name": "file2.txt",
+            "depends_on": [
+                "file1.txt"
+            ]
+        },
+        {
+            "name": "file3.txt",
+            "depends_on": [
+                "file1.txt"
+            ]
+        },
+        {
+            "name": "file5.txt",
+            "depends_on": [
+                "file2.txt",
+                "file3.txt"
+            ]
+        },
+        {
+            "name": "file7.txt",
+            "depends_on": [
+                "file6.txt"
+            ]
+        },
+        {
+            "name": "file8.txt",
+            "depends_on": [
+                "file2.txt"
+            ]
+        },
+        {
+            "name": "file10.txt",
+            "depends_on": [
+                "file2.txt"
+            ]
+        }
+    ]
+}

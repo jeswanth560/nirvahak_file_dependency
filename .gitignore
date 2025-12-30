@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS junk
+.DS_Store
+
+# Generated outputs (do not track)
+version-1/output/
+version-2/output/
+

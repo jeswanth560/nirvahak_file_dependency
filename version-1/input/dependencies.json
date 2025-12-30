@@ -1,0 +1,67 @@
+{
+    "files": [
+        {
+            "name": "file1.txt",
+            "depends_on": [],
+            "has_dependencies": false
+        },
+        {
+            "name": "file2.txt",
+            "depends_on": [
+                "file1.txt"
+            ],
+            "has_dependencies": true
+        },
+        {
+            "name": "file3.txt",
+            "depends_on": [
+                "file1.txt"
+            ],
+            "has_dependencies": true
+        },
+        {
+            "name": "file4.txt",
+            "depends_on": [],
+            "has_dependencies": false
+        },
+        {
+            "name": "file5.txt",
+            "depends_on": [
+                "file2.txt",
+                "file3.txt"
+            ],
+            "has_dependencies": true
+        },
+        {
+            "name": "file6.txt",
+            "depends_on": [],
+            "has_dependencies": false
+        },
+        {
+            "name": "file7.txt",
+            "depends_on": [
+                "file6.txt"
+            ],
+            "has_dependencies": true
+        },
+        {
+            "name": "file8.txt",
+            "depends_on": [
+                "file2.txt"
+            ],
+            "has_dependencies": true
+        },
+        {
+            "name": "file9.txt",
+            "depends_on": [],
+            "has_dependencies": false
+        },
+        {
+            "name": "file10.txt",
+            "depends_on": [
+                "file2.txt"
+            ],
+            "has_dependencies": true
+        }
+    ]
+}
