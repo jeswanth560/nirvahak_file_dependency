@@ -2,7 +2,7 @@
     "version": 2,
     "all_files_source": {
         "type": "directory",
-        "path": "../../scripts",
+        "path": "../scripts",
         "pattern": "*.txt"
     },
     "dependent_files": [
