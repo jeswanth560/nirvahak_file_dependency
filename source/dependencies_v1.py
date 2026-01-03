@@ -4,8 +4,8 @@ from collections import deque
 
 
 # Update these paths for your current structure
-CONFIG_FILE = "../01_resources/version1_dependencies.json"
-OUTPUT_FILE = "../03_output/results_version1.json"
+CONFIG_FILE = "../resources/dependencies_v1.json"
+OUTPUT_FILE = "../output/results_v1.json"
 
 
 # ----------------------------
@@ -161,7 +161,7 @@ def build_output(groups, dep_map, priority):
         seq = 1
         for name in ordered_files:
             text_files.append({
-                "sequence": seq,
+                "ID": seq,
                 "name": name
             })
             seq += 1

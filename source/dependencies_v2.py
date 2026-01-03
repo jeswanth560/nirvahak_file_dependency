@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 from collections import deque
 
-CONFIG_FILE = "../01_resources/version2_dependencies.json"
-OUTPUT_FILE = "../03_output/results_version2.json"
+CONFIG_FILE = "../resources/dependencies_v2.json"
+OUTPUT_FILE = "../output/results_v2.json"
 
 
 # ----------------------------
@@ -229,7 +229,7 @@ def build_output(groups, dep_map, priority):
         seq = 1
         for file_name in ordered_files:
             files_with_sequence.append({
-                "sequence": seq,
+                "ID": seq,
                 "name": file_name
             })
             seq += 1

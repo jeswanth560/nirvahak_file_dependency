@@ -4,27 +4,27 @@
       "group_id": 1,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file1.txt"
         },
         {
-          "sequence": 2,
+          "ID": 2,
           "name": "file2.txt"
         },
         {
-          "sequence": 3,
+          "ID": 3,
           "name": "file3.txt"
         },
         {
-          "sequence": 4,
+          "ID": 4,
           "name": "file5.txt"
         },
         {
-          "sequence": 5,
+          "ID": 5,
           "name": "file8.txt"
         },
         {
-          "sequence": 6,
+          "ID": 6,
           "name": "file10.txt"
         }
       ]
@@ -33,11 +33,11 @@
       "group_id": 2,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file6.txt"
         },
         {
-          "sequence": 2,
+          "ID": 2,
           "name": "file7.txt"
         }
       ]
@@ -46,7 +46,7 @@
       "group_id": 3,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file4.txt"
         }
       ]
@@ -55,7 +55,7 @@
       "group_id": 4,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file11.txt"
         }
       ]
@@ -64,7 +64,7 @@
       "group_id": 5,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file12.txt"
         }
       ]
@@ -73,7 +73,7 @@
       "group_id": 6,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file13.txt"
         }
       ]
@@ -82,7 +82,7 @@
       "group_id": 7,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file9.txt"
         }
       ]
@@ -91,7 +91,7 @@
       "group_id": 8,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file14.txt"
         }
       ]
@@ -100,7 +100,7 @@
       "group_id": 9,
       "files_in_order": [
         {
-          "sequence": 1,
+          "ID": 1,
           "name": "file15.txt"
         }
       ]
